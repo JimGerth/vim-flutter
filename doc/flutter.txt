@@ -46,6 +46,11 @@ will execute w/ the last option.
 Overwrite
 defaults to `0`.
 
+g:flutter_close_on_quit                 *g:flutter_close_on_quit*
+Whether to automatically close all `__Flutter_Output__` windows
+(splits and tabs) when calling |:FlutterQuit|.
+Defaults to `0`.
+
 :FlutterRun                                         *:FlutterRun*
 
 Starts a Flutter process in the current directory, if
